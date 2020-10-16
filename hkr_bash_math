@@ -1,0 +1,14 @@
+#! /bin/bash
+# https://www.hackerrank.com/challenges/bash-tutorials---looping-and-skipping/problem
+# # https://tecadmin.net/tutorial/bash/examples/add-to-numbers/
+ read x
+ read y 
+ # NB z: command not found.... z = $(( $x + $y ))
+ a=$(( $x + $y ))
+ b=$(( $x - $y ))
+ c=$(( $x * $y ))
+ d=$(( $x / $y ))
+echo "$a"
+echo "$b"
+echo "$c"
+echo "$d"
